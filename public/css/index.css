@@ -1,0 +1,191 @@
+input,ul,ol,li,p,textarea,form,input,h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+a{ text-decoration: none}
+
+nav ul{
+    background: #fff;
+}
+.navbar-toggle{
+    margin-top: 17px;
+    background: #fff;
+}
+.navbar-default .navbar-brand{
+    font-weight: 700;
+    color: #449d44;
+    height: 69px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav li a{
+    font-size: 16px;
+    font-weight: bold;
+    height: 68px;
+    line-height: 35px;
+    color: #666;
+}
+#home{
+    width:100%;
+    background: url("../images/home-bg.jpg") no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+    text-align: center;
+    color: #fff;
+}
+.filter{         /*   给背景加上一层滤镜 */
+    width:100%;
+    height:100%;
+    background: rgba(127,71,65,0.7);
+    padding: 80px 0;
+}
+#home h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(7,17,27,0.6);
+}
+#home p{
+    font-weight: 400;
+    line-height: 35px;
+}
+#home img{
+    width: 100%;
+    height:100%;
+    margin-top: 35px;
+    box-shadow: 2px 2px 2px #ccc;
+    border-radius: 2px;
+}
+/* 内容区*/
+#detail{
+    padding: 80px 0;
+    text-align: center;
+}
+#detail .col-md-4{
+    padding: 15px;
+}
+#detail .col-md-4 a{
+    text-decoration: none;
+    color: #666;
+}
+#detail .col-md-4:hover{
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+}
+#detail h3{
+    font-weight: bold;
+    margin: 10px 0;
+    color: #000;
+}
+#detail img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#xi-school,#nan-school,#dong-school{ background: #f8f8f8; padding: 80px 0}
+#xi-school h2,#nan-school h2,#dong-school h2{
+    font-weight: bold;
+}
+#xi-school p,#nan-school p,#dong-school p{
+    line-height:50px;
+}
+#xi-school .col-md-6 img,#nan-school .col-md-6 img,#dong-school img{
+    width: 80%;
+   height: 255px;
+}
+#xi-school .icon,#nan-school .icon,#dong-school .icon{
+    background: green;
+    padding: 5px;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 5px;
+}
+#show-img{
+    background: #f8f8f8;
+    padding: 80px 0;
+    text-align: center;
+}
+#show-img h2{
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+#show-img .show{ background: #fff;}
+#show-img .col-md-3{
+    margin-bottom: 20px;
+}
+#show-img .col-md-3 img{
+    width:100%;
+    height:198px;
+}
+#show-img .btn{
+    text-decoration: none;
+    background: transparent;
+    border:solid 1px #40D2B1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 0;
+    padding: 8px 30px;
+    color: #40D2B1;
+    transition: all 0.3s;
+}
+#show-img .btn:hover{
+    background: #40D2B1;
+    color: #fff;
+}
+/* 下面联系部分 */
+#show-detail{
+    background: url("../images/contact-bg.png")no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+#show-detail .row{
+    margin: 70px 0;
+}
+#show-detail h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#show-detail p{
+    line-height: 35px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+#show-detail .form-control{
+    height: 50px;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+#show-detail input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: 400;
+}
+#show-detail input[type="submit"]:hover{
+    background: rgb(44,122,140);
+    transition: all 0.3s;
+}
+.filters{
+    background:rgba(0,0,0,0.7);
+    width: 100%;
+    height:100%;
+}
+.icon-daxue{
+    background: #fff;
+    color: green;
+    padding: 5px;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 5px;
+}
+address .icon{
+    background: #fff;
+    color: green;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 6px;
+}
+footer p{
+    font-weight: 500;
+  padding: 20px;
+    text-align: center;
+}
+
